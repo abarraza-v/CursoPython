@@ -4,10 +4,14 @@ nombreCompleto = "Roberto Zuñiga Pérez"
 # Definiendo una variable con snake_case
 nombre_completo = "Roberto Zuñiga Pérez"
 
-# f-String
+# Concatenar con +
+bienvenida = "Hola " + nombre_completo + "¿Cómo estás?"
+
+# Concatenar f-String
 bienvenida = f"Hola {nombre_completo} cómo estás?"
 
 # Eliminar variable
-del nombre
+del nombre_completo
 
+# imprimir en consola
 print(bienvenida)
