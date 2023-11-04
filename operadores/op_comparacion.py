@@ -12,4 +12,12 @@ mayor_o_igual = 5 >= 6
 
 menor_o_igual = 5 <= 6
 
-print(mayor_o_igual)
+# También se puede utilizar en cálculos combinados
+
+a = 5
+b = 10
+c = 10
+
+comparacion = a + b < c
+
+print(comparacion)
