@@ -1,4 +1,6 @@
 frutas = ["pera", "manzana", "naranja", "palta", "durazno", "granada"]
+cadena = "Alejandro"
+numeros = [10, 24, 12, 30]
 
 # Evitar uno de los ciclos
 for fruta in frutas:
@@ -17,3 +19,11 @@ for fruta in frutas:
         break
 else:  # Break ignora incluso el else.
     print("El bucle acabó")
+
+# Recorrer una cadena de texto
+for letra in cadena:
+    print(letra)
+
+# For en una sola linea de código
+numeros_duplicados = [x * 2 for x in numeros]
+print(numeros_duplicados)
